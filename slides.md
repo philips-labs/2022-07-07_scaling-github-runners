@@ -59,8 +59,7 @@ section {
 
 - Ice Hockey | Mocktails
 
-
-![bg right:50%](assets/scott.png)
+![bg right:50%](assets/scott.jpg)
 
 ---
 
