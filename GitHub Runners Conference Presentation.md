@@ -3,17 +3,16 @@
 1 hours slot
 plan for 50 mins + Q&A
 
-
 - Explain the problem
-    - GitHub Cloud runners? Private network?
-    - Custom VMS/Config
-    - Different approaches available (K8s vs VMs)
-    - Why did we not use k8s?
-
+  - GitHub Cloud runners? Private network?
+  - Custom VMS/Config
+  - Different approaches available (K8s vs VMs)
+  - Why did we not use k8s?
 
 Solution
+
 - Low cost and highly scalable using built in AWS services (lambda/sqs)
-- - GitHub Enterprise
+- GitHub Enterprise
 - AWS GovCloud
 - Connectivity to private networks
 - Promoted by GH as a solution for self-hosted runners
@@ -23,26 +22,24 @@ Solution
 - Release automation
 - Started with Linux and had the flexibility to include Windows
 
-
-
 - How we use it in Philips
-    - Scale
-    - Numbers
-    - Costs
-    - Savings
-    - etc
-
+  - Scale
+  - Numbers
+  - Costs
+  - Savings
+  - etc
 
 Demo???
-- what do we want to demo?
-    - Deploy from scratch (fake it?)?
-    - Show scaling
-    - Ephemeral
 
+- what do we want to demo?
+
+  - Deploy from scratch (fake it?)?
+  - Show scaling
+  - Ephemeral
 
 - Open Source
-    - Building community
-    - High quality
-    - We are our own consumers
-    - People who use it (DowJones, xyz)
-        - Contributors - How many contributors do we have?
+  - Building community
+  - High quality
+  - We are our own consumers
+  - People who use it (DowJones, xyz)
+    - Contributors - How many contributors do we have?

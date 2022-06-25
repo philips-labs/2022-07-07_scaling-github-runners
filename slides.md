@@ -3,13 +3,11 @@ marp: true
 author: Niek Palm
 backgroundColor: black
 color: blue
-class: 
-    - invert
-    - lead
+class:
+  - invert
+  - lead
 
-theme: 
-
-
+theme:
 ---
 
 <!-- Global style -->
@@ -20,15 +18,14 @@ section {
 
 </style>
 
-
 ![bg](assets/infra-as-code.jpg)
 <br>
 <br>
 <br>
-## <!--fit-->  **GitHub runners for a few cents**
+
+## <!--fit--> **GitHub runners for a few cents**
+
 #### **Niek Palm**
-
-
 
 ---
 
@@ -42,10 +39,7 @@ section {
 
 - Travel | Home Cook | Triathlon
 
-
 ![bg right:50%](assets/niek-japan.jpeg)
-
-
 
 ---
 
@@ -55,14 +49,13 @@ section {
 
 - Hands-on | Open Source
 
-- AWS ...
+- AWS | Azure | C# | TypeScript
 
-- Ice Hockey | Mocktails
+- Ice Hockey
 
 ![bg right:50%](assets/scott.jpg)
 
 ---
-
 
 ## <!--fit--> A brief history
 
@@ -72,8 +65,7 @@ section {
 
 ✨ Source Code -> GitHub
 
-🔌 Empower everone with Actions
-
+🔌 Empower everyone with Actions
 
 ![bg right](assets/iron-age.jpg)
 
@@ -81,7 +73,7 @@ section {
 
 # 101 - InnerSource
 
-Innersource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects.
+InnerSource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects.
 
 ![50% bg right](assets/innersource.png)
 
@@ -93,7 +85,6 @@ Innersource is a development methodology where engineers build proprietary softw
 - Actions == CI/CD Lego bricks
 - Jobs are triggered by an event
 - Jobs require a runner to run
-
 
 ```yaml
 on: [push]
@@ -111,7 +102,7 @@ jobs:
 
 ---
 
-# <!-- fit -->  🏗️ What do we need for CI/CD?
+# <!-- fit --> 🏗️ What do we need for CI/CD?
 
 ---
 
@@ -119,10 +110,9 @@ jobs:
 
 ![bg right](assets/cables.jpg)
 
-
 ---
 
-# <!-- fit --> ↔️ Scale 
+# <!-- fit --> ↔️ Scale
 
 ![bg right](assets/scale.jpeg)
 
@@ -134,10 +124,11 @@ jobs:
 
 ---
 
-slide sustainble? 
+slide sustainable? Easy to maintain?
 
 ---
 
+<!-- markdownlint-disable MD033 -->
 <style scoped>
 
 h1 {
@@ -162,6 +153,7 @@ section {
 ![90% bg right](assets/idea.png)
 
 ---
+
 <style scoped>
 
 h1 {
@@ -178,21 +170,23 @@ h2 {
   font-family: fantasy;
 }
 
-
 </style>
 
+## Pay only for usage
 
-## Pay only for useages
 ## Scaling to zero
-# SERVERLESS 
+
+# SERVERLESS
+
 ## Event based
+
 ## Treat runners as cattle
 
 ---
 
 ---
 
-# <!-- fit --> 🤔 HOw do up?
+# <!-- fit --> 🤔 How do up?
 
 <br><br>
 
@@ -212,31 +206,25 @@ h2 {
 
 ⚠️ No event
 
-⚠️  No queue, or API to check
+⚠️ No queue, or API to check
 
 💡 Scheduled task
 
-
-
 ![bg right](assets/zero.jpeg)
 
---- 
-
+---
 
 # <!-- fit --> 🤔 Costs & Sustaible?
 
 <br><br>
 
-
 💡 Lambda and API Gateway
 
 💡 Scale down when possible
 
-💡 Low cost on maintance
+💡 Low cost on maintenance
 
 💡 Low cost on fire fighting
-
-
 
 ![bg right](assets/zero.jpeg)
 
@@ -262,44 +250,49 @@ section {
 
 ![bg right](assets/architecture.jpg)
 
+---
 
---- 
 # demo
+
 <!-- niek -->
---- 
+
+---
+
 # ephemeral
+
 <!-- niek -->
---- 
+
+---
+
 # open source development
 
 - releases
 - automations
-- 
+- ***
 
-
---- 
 # open source contribution
 
 - security
 - gov cloud
 - windows
 
---- 
-# usages in Philips
+---
 
---- 
-# how we deploy
+# Usage in Philips
 
-<!-- 
+---
+
+# How we deploy
+
+<!--
 - pipelines
 - terraform / terragrunt
 - checks
 - codeowners for security officer..
 -->
 
-
-
 ---
+
 ```hcl
 
 module "github-runner" {
@@ -317,3 +310,4 @@ module "github-runner" {
 
   enable_organization_runners = true
 }
+```
