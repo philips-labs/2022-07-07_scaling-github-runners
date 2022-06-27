@@ -1,0 +1,17 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "Auto-scaling GitHub Self-Hosted runners with AWS serverless for a few cents",
+  "repository": "git@github.com:philips-labs/2022-07-07_scaling-github-runners.git",
+  "author": "Niek Palm and Scott Guymer",
+  "license": "MIT",
+  "scripts": {
+    "build-html": "marp slides.md --allow-local-files -o build/index.html && cp -r assets build/assets",
+    "build-pdf": "marp slides.md --allow-local-files -o build/slides.pdf",
+    "build-all": "yarn run build-html && yarn run build-pdf",
+    "watch": "marp slides.md -w"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.0.4"
+  }
+}
