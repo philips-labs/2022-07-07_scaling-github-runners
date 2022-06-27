@@ -21,9 +21,6 @@ jobs:
       - name: 🔧 Install
         run: |
           yarn
-      - name: 🔧 Check format
-        run: |
-          yarn run format-check
       - name: 🔧 Build pages
         run: |
           yarn run build-html
