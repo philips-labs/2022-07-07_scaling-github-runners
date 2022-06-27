@@ -4,6 +4,7 @@
 
 https://www.developer-week.de/programm/#/talk/auto-scaling-github-self-hosted-runners-with-aws-serverless-for-a-few-cents
 
+Link to slides [https://friendly-telegram-0636c11e.pages.github.io/](https://friendly-telegram-0636c11e.pages.github.io/).
 
 ## Status
 
