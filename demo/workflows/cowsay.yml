@@ -1,0 +1,24 @@
+name: cowsay
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Manual mode"
+        required: true
+        default: "test run..."
+
+jobs:
+  cowsay:
+    runs-on: self-hosted
+    strategy:
+      fail-fast: true
+      matrix: 
+        name: [radio, ren, renge, robot, robotfindskitten, roflcopter, rook, sachiko, satanic, seahorse-big, seahorse, sheep, shikato, shrug, skeleton, small, smiling-octopus, snoopy, snoopyhouse, snoopysleep, spidercow, squid, squirrel, stegosaurus, stimpy, sudowoodo, supermilker, surgery, tableflip, taxi, telebears, template, threader, threecubes, toaster, tortoise, turkey, turtle, tux-big, tux, tweety-bird]
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: message
+        run: |
+          npx cowsay -f ${{ matrix.name }} "${{ matrix.name }}"

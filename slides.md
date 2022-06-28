@@ -254,10 +254,14 @@ section {
 
 # <!-- fit --> 📢 LIVE DEMO
 
+* Create cloud resources
+* Connect cloud with GitHub
+* Run oughly 40 jobs
+
+
 ![bg right](assets/building.jpeg)
 
 ---
-
 # Security
 
 * Ephemeral
