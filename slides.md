@@ -1,6 +1,6 @@
 ---
 marp: true
-author: Niek Palm
+author: Niek Palm & Scott Guymer
 backgroundColor: black
 color: blue
 class:
@@ -25,7 +25,7 @@ section {
 
 ## <!--fit--> **GitHub runners for a few cents**
 
-#### **Niek Palm**
+#### **Scott Guymer / Niek Palm**
 
 ---
 
@@ -94,8 +94,7 @@ jobs:
     container: node:16
     steps:
       - uses: actions/checkout@v3
-      - run: npm install -g bats
-      - run: bats -v
+      - run: npx bats -v
 ```
 
 ![bg right](assets/overview-actions-design.png)
@@ -124,7 +123,9 @@ jobs:
 
 ---
 
-slide sustainable? Easy to maintain?
+# <!-- fit --> 🪴 Sustainable
+
+![bg right](assets/eco.jpeg)
 
 ---
 
@@ -143,18 +144,18 @@ section {
 
 # 💡 Idea
 
-- Run on standard Linux VMs
-- Scale in/ou based on workload
-- Run in cloud connected to premise
-- Support repo and org level runners
-- Develop open source from day 0
-- Apply all standard practices
+* Run on standard Linux VMs
+* Scale in/ou based on workload
+* Run in cloud connected to premise
+* Support repo and org level runners
+* Develop open source from day zero
+* Apply all standard practices
 
 ![90% bg right](assets/idea.png)
 
 ---
 
-<style scoped>
+<!-- <style scoped>
 
 h1 {
   color: green;
@@ -180,13 +181,12 @@ h2 {
 
 ## Event based
 
-## Treat runners as cattle
+## Treat runners as cattle -->
+
 
 ---
 
----
-
-# <!-- fit --> 🤔 How do up?
+# <!-- fit --> 🤔 Scale up?
 
 <br><br>
 
@@ -200,7 +200,7 @@ h2 {
 
 ---
 
-# <!-- fit --> 🤔 How do we scale down?
+# <!-- fit --> 🤔 Scale down?
 
 <br><br>
 
@@ -218,13 +218,13 @@ h2 {
 
 <br><br>
 
-💡 Lambda and API Gateway
+💡 Serverless
 
 💡 Scale down when possible
 
 💡 Low cost on maintenance
 
-💡 Low cost on fire fighting
+💡 Treat runners as a cattle
 
 ![bg right](assets/zero.jpeg)
 
@@ -238,43 +238,79 @@ section {
 
 ## Cloud Architecture
 
-- GitHub App for events
-- AWS API gateway to get events
-- AWS Lambda for event handling
-- AWS SQS for decoupling
-- AWS Lambda to scale up
-- GitHub App for API access
-- AWS EC2 (Spot) to run jobs
-- AWS Direct connect for networking
-- AWS Lambda for scaling down
+* GitHub App for events
+* AWS API gateway to get events
+* AWS Lambda for event handling
+* AWS SQS for decoupling
+* AWS Lambda to scale up
+* GitHub App for API access
+* AWS EC2 (Spot) to run jobs
+* AWS Direct connect for networking
+* AWS Lambda for scaling down
 
 ![bg right](assets/architecture.jpg)
 
 ---
 
-# demo
+# <!-- fit --> 📢 LIVE DEMO
 
-<!-- niek -->
+* Create cloud resources
+* Connect cloud with GitHub
+* Run oughly 40 jobs
+
+
+![bg right](assets/building.jpeg)
+
+---
+# Security
+
+* Ephemeral
+* Encrypted secrets
+* Minimal privilleges
+* Permission boundaries
+
+
+![bg right](assets/vault.jpeg)
+
 
 ---
 
-# ephemeral
+# Open Source
 
-<!-- niek -->
+⭐ 900+ stars
+
+✨ 75+ contributors
+
+❤️ 330+ Pull requests
+
+🏆 Recommended by GitHub
+
+
+![bg right](assets/runners-os.png)
 
 ---
 
-# open source development
+# Contribution
 
-- releases
-- automations
-- ***
+* Support windows
+* Support ARM
+* Better docs
+* More Secure
+* Upgrades
 
-# open source contribution
+![bg right](assets/lego.jpeg)
 
-- security
-- gov cloud
-- windows
+---
+
+# OS
+
+topics we could cover
+
+- PR checks automated
+- Auomated release
+- Slack
+- Build a community
+
 
 ---
 
