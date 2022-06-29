@@ -55,9 +55,99 @@ section {
 
 ![bg right:50%](assets/scott.jpg)
 
+
 ---
 
-## <!--fit--> A brief history
+<!--
+_backgroundColor: blue
+_color: white
+-->
+
+# What do you know about Philips?
+
+![bg left](assets/philips-factory.jpg)
+
+---
+
+<!--
+_backgroundColor: blue
+_color: white
+-->
+
+## We're a **health technology** company improving people's health and well-being through meaningful innovation
+
+## Our purpose is to improve people’s health and well-being. We aim to improve 2.5 billion lives per year by 2030
+
+
+![bg left](assets/mri.jpg)
+
+---
+
+<!--
+_backgroundColor: blue
+_color: white
+-->
+
+# Vision
+
+## To make Philips the best software company in Healthcare
+
+- Leverage best tools
+- Change the way collaborate
+
+
+
+
+![bg left](assets/SmartCT_tableside_monitor.jpeg)
+
+---
+
+<!--
+_backgroundColor: blue
+_color: white
+-->
+
+<style scoped>
+
+section {
+  font-size: 27px
+}
+</style>
+
+# Software in Philips
+
+- Global
+
+- Embedded | Cloud | Web | Mobile | ?
+
+- 6500+ Software Professionals
+
+- 100 Million lines of code
+
+- Legacy + Green field
+
+- Which langes do we not use?
+
+- Regulated
+
+
+![bg left](assets/nicolab_strokeviewer.jpeg)
+
+
+---
+
+# InnerSource
+
+* InnerSource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects.
+
+* In Phiips we combine world class tools to enable teams to focus on meaningfull inovation to improve people lives.
+
+![50% bg right](assets/innersource.png)
+
+
+---
+
+## <!--fit--> How we started?
 
 🏛️ March 2020
 
@@ -65,17 +155,9 @@ section {
 
 ✨ Source Code -> GitHub
 
-🔌 Empower everyone with Actions
+🔌 Empower everyone CI/CD
 
 ![bg right](assets/iron-age.jpg)
-
----
-
-# 101 - InnerSource
-
-InnerSource is a development methodology where engineers build proprietary software using best practices from large-scale open source projects.
-
-![50% bg right](assets/innersource.png)
 
 ---
 
@@ -101,7 +183,7 @@ jobs:
 
 ---
 
-# <!-- fit --> 🏗️ What do we need for CI/CD?
+# <!-- fit --> 🏗️ What do we need run actions on scale?
 
 ---
 
@@ -214,7 +296,7 @@ h2 {
 
 ---
 
-# <!-- fit --> 🤔 Costs & Sustaible?
+# <!-- fit --> 🤔 Costs & Sustainable?
 
 <br><br>
 

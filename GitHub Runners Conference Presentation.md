@@ -1,5 +1,26 @@
 # GitHub Runners Conference Presentation
 
+
+TODO
+Intro philips
+
+- we are from philips, you think about this...
+- bit of fun, ask Jeroen?
+- HealthTech -> Software -> Open Source
+
+
+Key things
+- severless / event scaling / leverage cloud native ideas for build architecture get rid of under the desk culture
+- open source we are a software com
+- 
+
+Challenges
+- ?
+
+
+---
+
+
 1 hours slot
 plan for 50 mins + Q&A
 
