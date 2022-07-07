@@ -71,6 +71,7 @@ _color: white
 ![bg left](assets/philips-factory.jpg)
 
 <!--
+@scott
 What are we doing here?
 Philips is a worldwide recognisable brand almost everyone in the world has heard of Philips.
 But you don't think of software.
@@ -87,6 +88,7 @@ _color: white
 
 # Probably this?
 
+<!-- @scott -->
 ---
 
 <!--
@@ -98,6 +100,8 @@ _color: #0072DA
 
 # Maybe this?
 
+<!-- @scott -->
+
 ---
 
 # <!-- fit --> Not this
@@ -108,6 +112,8 @@ _color: #0072DA
 _backgroundColor: #0072DA
 _color: white
 -->
+
+<!-- @scott -->
 
 ---
 
@@ -122,6 +128,7 @@ _color: white
 
 ![bg left](assets/MRI.png)
 
+<!-- @scott -->
 ---
 
 <!--
@@ -189,6 +196,8 @@ _color: #244C5D
 
 ![bg right](assets/iron-age.jpg)
 
+<!-- @niek -->
+
 ---
 
 <!--
@@ -215,6 +224,8 @@ jobs:
 ```
 
 ![bg right fit](assets/overview-actions-design.png)
+
+<!-- @niek -->
 
 ---
 
@@ -451,6 +462,7 @@ _color: #244C5D
 ![bg left](assets/runners-os.png)
 
 <!-- 
+@niek 
 topics we could cover
 
 - PR checks automated
@@ -468,15 +480,16 @@ _color: #144835
 
 # Contribution
 
-* Support windows
-* Support ARM
-* Support GHES
-* Better docs
-* Security improvements
-* Upgrades
+- Support windows
+- Support ARM
+- Support GHES
+- Better docs
+- Security improvements
+- Upgrades
 
 ![bg right](assets/lego.jpeg)
 
+<!-- @niek -->
 ---
 
 <!--
@@ -489,6 +502,8 @@ _color: #9B3426
 # <!-- fit --> in Philips
 
 ![bg left](assets/lichttoren.jpg)
+
+<!-- @niek -->
 
 ---
 
@@ -506,6 +521,8 @@ _color: #3D0F58
 
 ![bg right:20%](assets/droste.jpeg)
 
+<!-- @niek -->
+
 ---
 
 <!--
@@ -517,6 +534,7 @@ _color: white
 
 ![bg fit](assets/issue-ops.png)
 
+<!-- @niek -->
 ---
 
 <!--
@@ -527,6 +545,7 @@ _color: white
 
 ![bg](assets/graph-week.png)
 
+<!-- @niek -->
 ---
 <!--
 _color: white
@@ -543,7 +562,10 @@ _color: white
 
 ![bg](assets/runners-3-months.png)
 
-<!-- runners last 3 months per day -->
+<!--
+@niek
+runners last 3 months per day 
+-->
 
 ---
 
