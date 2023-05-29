@@ -31,7 +31,7 @@ jobs:
           apt-get install -y rsync
       - name: 🚀 Deploy
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
           branch: gh-pages
           folder: build
