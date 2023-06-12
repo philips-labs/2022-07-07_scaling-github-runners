@@ -12,6 +12,6 @@
     "watch": "marp slides.md -w"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.0.4"
+    "@marp-team/marp-cli": "^3.0.0"
   }
 }
